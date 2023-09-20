@@ -15,9 +15,12 @@ tags:
 norm이란 벡터의 크기를 나타내는 방법이다.
 norm은 다음의 3가지 성질을 만족한다.
 
-1. 임의의 벡터 $\mathbf{x}$가 스칼라 $\alpha$로 스케일링 되면 norm도 그에 따라 $|\alpha|$만큼 스케일링된다.$$\|\alpha\mathbf{x}\| = |\alpha|\|\mathbf{x}\|$$
-2. 임의의 벡터 $\mathbf{x}, \mathbf{y}$에 대해서 norm은 삼각 부등식을 만족한다.$$ \|\mathbf{x} + \mathbf{y}\| \leq \|\mathbf{x}\| + \|\mathbf{y}\| $$
-3. 임의의 벡터 $\mathbf{x}$가 영벡터가 아닐 때, $\mathbf{x}$의 norm은 양수이다.$$\|\mathbf{x}\| > 0 \textrm{ for all } \mathbf{x} \neq 0$$
+1. 임의의 벡터 $\mathbf{x}$가 스칼라 $\alpha$로 스케일링 되면 norm도 그에 따라 $|\alpha|$만큼 스케일링된다.
+$$\|\alpha\mathbf{x}\| = |\alpha|\|\mathbf{x}\|$$
+2. 임의의 벡터 $\mathbf{x}, \mathbf{y}$에 대해서 norm은 삼각 부등식을 만족한다.
+$$\|\mathbf{x} + \mathbf{y}\| \leq \|\mathbf{x}\| + \|\mathbf{y}\|$$
+3. 임의의 벡터 $\mathbf{x}$가 영벡터가 아닐 때, $\mathbf{x}$의 norm은 양수이다.
+$$\|\mathbf{x}\| > 0 \textrm{ for all } \mathbf{x} \neq 0$$
 
 # L1 norm
 
