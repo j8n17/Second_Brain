@@ -22,6 +22,7 @@ norm은 다음의 3가지 성질을 만족한다.
 # L1 norm
 
 L1 norm은 맨해튼 거리(Manhattan distance)라고도 불린다. (맨해튼의 격자 무늬의 골목을 의미한다.)
+
 $$ \|\mathbf{x}\|_1 = \sum_{i=1}^n|\mathbf{x_i}| $$
 
 # L2 norm
