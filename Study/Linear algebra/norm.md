@@ -36,6 +36,7 @@ $$\|\mathbf{x}\|_2 = \sum _{i=1}^n\mathbf{x_i}^2$$
 # Lp Norm
 
 보통 L1, L2 norm을 많이 사용하는데 이는 Lp norm에서 p가 1, 2인 경우이다.
+
 즉, norm을 일반적으로 표현한 것이 Lp norm이다.
 $$\|\mathbf{x}\|_p = \left( \sum _{i=1}^n|\mathbf{x_i}|^p\right)^{1/p} $$
 
