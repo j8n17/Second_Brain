@@ -13,3 +13,5 @@ https://discuss.pytorch.org/t/what-is-the-difference-between-register-buffer-and
 ```python
 self.register_buffer('buffer', torch.Tensor([7]), persistent=True)
 ```
+
+

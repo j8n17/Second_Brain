@@ -6,7 +6,7 @@ tags:
 - iter
 ---
 
-> [!요약]
+> [!Summary]
 iterable은 `__iter__()` 또는 `__getitem__()` 메서드로 정의된 class.
 iterator는 next()로 호출가능한 객체.
 

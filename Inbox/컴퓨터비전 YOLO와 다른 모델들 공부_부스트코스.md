@@ -1,0 +1,1 @@
+https://www.boostcourse.org/ai341/lecture/1466833?isDesc=false
