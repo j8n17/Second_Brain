@@ -48,6 +48,7 @@ $$\|\mathbf{x}\|_\infty = \lim _{i\to\infty}\left( \sum _{i=1}^n|\mathbf{x_i}|^p
 # Frobenius norm
 
 행렬도 벡터의 성질을 가지고 있기 때문에 행렬의 크기를 비교할 때 norm을 쓸 수 있다.
+
 이때 행렬의 모든 원소를 제곱해 더하는 Frobenius norm이라는 것을 사용해 행렬의 크기를 비교할 수 있다.
 
 $$\|\mathbf{X}\|_ \textrm{F} = \sqrt{\sum_{i = 1}^m \sum_{j=1}^n x_{i, j}^2}$$
