@@ -8,14 +8,16 @@ tags:
   - mul
 ---
 
->[!info] torch.mul() - 브로드캐스팅을 통한 행렬간의 <u>element wise 곱</u> 연산 (행렬곱X)
-
+# torch 벡터 및 행렬 연산
 
 - torch.dot() - 2개의 1D tensor(벡터)의 내적(dot product) 연산
 - torch.mv() - 2D tensor(행렬)과 1D tensor(벡터)의 행렬곱(matrix product) 연산
 - torch.mm() - 2개의 2D tensor(행렬)의 행렬곱 연산
 - torch.matmul() - 브로드캐스팅을 지원하는 행렬곱 연산
 
+```ad-warning
+- torch.mul() - 브로드캐스팅을 통한 행렬간의 <u>element wise 곱</u> 연산 (행렬곱X)
+```
 # torch.dot(), torch.mv(), torch.mm()
 
 ```python
@@ -79,7 +81,7 @@ torch.Size([2, 3, 5])
 
 # tensor 메서드
 
-이 연산들은 모두 tensor의 메서드로도 사용할 수 있다.
+위에서 설명한 모든 연산들은 tensor의 메서드로도 사용할 수 있다.
 
 ```python
 >>> vec.dot(vec)

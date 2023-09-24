@@ -1,0 +1,1 @@
+https://www.google.com/search?q=Batch+Normalization%3A+Accelerating+Deep+Network+Training+by+Reducing+Internal+Covariate+Shift&rlz=1C5CHFA_enKR984KR985&oq=Batch+Normalization%3A+Accelerating+Deep+Network+Training+by+Reducing+Internal+Covariate+Shift&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDgxNWowajE1qAIAsAIA&sourceid=chrome&ie=UTF-8&bshm=rimc/1
