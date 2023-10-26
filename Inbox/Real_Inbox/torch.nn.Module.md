@@ -99,4 +99,4 @@ output = calculator(x)
 하지만 List와 Dict는 Module이 아니기 때문에 Sub Module로 등록이 되지 않아 클래스 내부에 어떤 Module들이 있는지 파악하기 어렵고 모델 저장시에도 List에 속한 Module들이 저장되지 않는다.
 
 ###### 참고
-Module에서 다른 Module들을 Sub Module로 등록하는 방법은 [[nn.Module의 __setattr__()]]에 나와있다.
+Module에서는 [[nn.Module의 __setattr__()|__setattr__()]]를 통해 다른 Module들을 Sub Module로 등록한다.

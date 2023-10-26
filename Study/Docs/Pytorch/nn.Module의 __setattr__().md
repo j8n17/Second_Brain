@@ -2,9 +2,11 @@
 tags:
 - __setattr__
 - Module
+alias:
+- __setattr__()
 ---
 
-nn.Module의 \_\_setattr\_\_()에서는 아래의 코드들에서 초기화되는 속성명(name)이 이미 등록 되어 있는 속성명인지, 값(value)이 어떤 값인지(Parameter인지, Module인지 등)를 확인한 후 초기화하는 과정을 거친다.
+nn.Module의 \_\_setattr\_\_()에서는 아래의 코드들에서 초기화되는 속성명(name)이 이미 등록 되어 있는 속 성명인지, 값(value)이 어떤 값인지(Parameter인지, Module인지 등)를 확인한 후 초기화하는 과정을 거친다.
 
 ```python
 # nn.Module __init__()에서의 self.name = value의 형태

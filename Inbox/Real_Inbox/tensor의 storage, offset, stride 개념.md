@@ -1,3 +1,4 @@
+
 https://hiddenbeginner.github.io/deeplearning/2020/01/21/pytorch_tensor.html#ref2
 
 view와 slicing, 심지어 transpose에서도 이 개념을 사용하는 것을 알 수 있다.

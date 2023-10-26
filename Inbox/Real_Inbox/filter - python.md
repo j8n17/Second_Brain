@@ -1,0 +1,1 @@
+https://kooc.kaist.ac.kr/python4ai/lecture/164576?isDesc=false

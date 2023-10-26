@@ -4,8 +4,8 @@ tags:
 - __slots__
 ---
 
-[[Class - __dict__|__dict__]]를 사용하면 클래스 객체의 속성을 Dict로 간단하게 볼 수 있다.
-
+[[Class - __dict__|__dict__]]를 사용하면 클래스 객체의 속성을 Dict로 간단하게 볼 수 있다. [[tensor의 storage, offset, stride 개념]]
+[[tensor의 storage, offset, stride 개념|storage]]
 하지만 \_\_dict\_\_는 메모리 사용량이 많고 외부에서 새로운 attribute를 제한없이 만들어 낼 수 있다.
 
 이런 문제를 해결하기 위해 클래스 내부에 \_\_slots\_\_ class attribute를 할당해 \_\_dict\_\_ 대신 사용할 수 있다.
